@@ -1,0 +1,142 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #E5E5E5;
+}
+
+/* main background color  #E5E5E5;*/
+/* seconadary background color #F4F4FD */
+/* main color #2E2F42 */
+/* text color #434455 */
+
+
+/* HEADER */
+.header {
+    background-color: #FFFFFF;
+}
+.nav-li {
+  color: var(--primary-text-color);
+}
+.contacts {
+ color: var(--title-text-color);
+}
+.contacts:hover,
+:focus,
+.nav-li:hover,
+:focus {
+  color: #404bbf;
+}
+
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+ 
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.web {
+  color: #4d5ae5;
+}
+
+                                                    /*MAIN */
+.hero {background-color: var(--primary-text-color);}
+                                                
+.title {
+    color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:hover,
+:focus {
+  background-color: #404bbf;
+}
+
+.title-section {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+
+  letter-spacing: 0.02em;
+}
+.section-text {
+color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+
+  letter-spacing: 0.02em;
+}
+.photos-title {
+color: var(--primary-text-color);
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-mem {
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.02em;
+}
+.team-text {
+color: var(--title-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-text-color);
+}
+.std-foot {
+    color: #F4F4FD;
+}
+.text-foot {
+    color: #E7E9FC;
+}
