@@ -1,12 +1,11 @@
 :root {
-    --primary-text-color: #2E2F42;
-    --title-text-color: #434455;
-    --button-color: #4d5ae5;
+  --primary-text-color: #2e2f42;
+  --title-text-color: #434455;
+  --button-color: #4d5ae5;
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #E5E5E5;
+  
 }
 
 /* main background color  #E5E5E5;*/
@@ -14,52 +13,86 @@ body {
 /* main color #2E2F42 */
 /* text color #434455 */
 
-
-/* HEADER */
+                                                   /* HEADER */
 .header {
-    background-color: #FFFFFF;
-}
-.nav-li {
-  color: var(--primary-text-color);
-}
-.contacts {
- color: var(--title-text-color);
-}
-.contacts:hover,
-:focus,
-.nav-li:hover,
-:focus {
-  color: #404bbf;
+  background-color: #ffffff;
 }
 
-.studio {
-  font-family: "Raleway";
-  font-style: normal;
+.web {
+  color: #4d5ae5;
+}
+.head-btn:hover, :focus{
+  color: var(--button-color);
+}
+.head-btn {
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
- 
+  line-height: 1.33;
+  /* identical to box height, or 133% */
 
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.web {
-  color: #4d5ae5;
+
+.nav-li {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-                                                    /*MAIN */
-.hero {background-color: var(--primary-text-color);}
-                                                
+.contacts {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts:hover,
+:focus,
+.nav-li:hover,
+:focus {
+  color: #404bbf;
+  
+}
+
+.studio {
+  color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+
+                                                /*MAIN */
+.hero {
+  background-color: var(--primary-text-color);
+}
+
 .title {
-    color: #FFFFFF;
+  color: #ffffff;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -69,88 +102,142 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
 }
 .button:hover,
 :focus {
   background-color: #404bbf;
+
 }
 
 .title-section {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-
-
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+  
   letter-spacing: 0.02em;
 }
+
+.sec-ul {
+  list-style: none;
+}
+
+
 .section-text {
-color: var(--title-text-color);
+  color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  
-
+  line-height: 1.5;
+  /* or 150% */
   letter-spacing: 0.02em;
 }
+  
 .photos-title {
-color: var(--primary-text-color);
-}
-
-.team {
-    background-color: #F4F4FD;
-}
-.team-title {
-    color: var(--primary-text-color);
-    font-weight: 700;
+  color: var(--primary-text-color);
+  font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
+/* identical to box height, or 111% */
 
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.team-mem {
-color: var(--primary-text-color);
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
 
-text-align: center;
-letter-spacing: 0.02em;
+.team {
+  background-color: #f4f4fd;
+
+}
+.team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-mem {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-text {
-color: var(--title-text-color);
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
 
-
-text-align: center;
-letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
 .footer {
-    background-color: var(--primary-text-color);
+  background-color: var(--primary-text-color);
 }
 .std-foot {
-    color: #F4F4FD;
+  color: #f4f4fd;
 }
 .text-foot {
-    color: #E7E9FC;
+  color: #e7e9fc;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
 }
 
-                                  /*PORTFOLIO  */
-
+/*PORTFOLIO  */
 
 .port-button {
   color: var(--button-color);
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   cursor: pointer;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+
+letter-spacing: 0.04em;
 }
-.port-button:hover, :focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+.port-button:hover,
+:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.port-section {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+}
+
+.port-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
 }
