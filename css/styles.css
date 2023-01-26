@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #2E2F42;
     --title-text-color: #434455;
+    --button-color: #4d5ae5;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -139,4 +140,17 @@ letter-spacing: 0.02em;
 }
 .text-foot {
     color: #E7E9FC;
+}
+
+                                  /*PORTFOLIO  */
+
+
+.port-button {
+  color: var(--button-color);
+  background-color: #E7E9FC;
+  cursor: pointer;
+}
+.port-button:hover, :focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
